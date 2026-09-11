@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="星炬长明——江苏高校科学家精神校园原创戏剧展示平台" />
+  <meta name="theme-color" content="#6d1018" />
+  <title>星炬长明｜江苏高校科学家精神戏剧剧场</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700;900&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="top-line"></div>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true">炬</span>
+        <span>星炬长明</span>
+      </a>
+      <div class="nav-links">
+        <a href="#works">剧目典藏</a>
+        <a href="#news">新闻动态</a>
+        <a href="#message">薪火留言</a>
+      </div>
+      <a class="nav-badge" href="#about">关于剧场</a>
+    </nav>
+
+    <section class="masthead shell">
+      <div class="eyebrow"><span></span>高校原创 · 科学家精神 · 舞台叙事<span></span></div>
+      <h1><em>星炬长明</em><b>江苏高校科学家精神戏剧剧场</b></h1>
+      <p>以青春之声，致敬求真之路；以舞台微光，照见科学脊梁。</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-label="精选剧目轮播">
+      <div class="curtain curtain-left" aria-hidden="true"></div>
+      <div class="curtain curtain-right" aria-hidden="true"></div>
+      <div class="slider" id="heroSlider">
+        <article class="slide active" style="--hero-image: url('assets/hero-stage.svg')">
+          <div class="slide-content">
+            <span class="chapter">序章 · 追光</span>
+            <h2>把论文写在祖国大地上</h2>
+            <p>在实验室与舞台之间，重温一代代科学工作者赤诚报国的选择。</p>
+            <a href="#works" class="gold-button">走进剧场 <span>→</span></a>
+          </div>
+        </article>
+        <article class="slide" style="--hero-image: url('assets/hero-lab.svg')">
+          <div class="slide-content">
+            <span class="chapter">第二幕 · 求真</span>
+            <h2>一次实验，一生坚守</h2>
+            <p>青年学子以原创剧目，让严谨、奉献与协作在聚光灯下被看见。</p>
+            <a href="#news" class="gold-button">查看动态 <span>→</span></a>
+          </div>
+        </article>
+        <article class="slide" style="--hero-image: url('assets/hero-stars.svg')">
+          <div class="slide-content">
+            <span class="chapter">终章 · 传承</span>
+            <h2>前辈的星火，青年的回答</h2>
+            <p>汇聚江苏高校校园原创力量，共同书写新时代的科学家精神。</p>
+            <a href="#message" class="gold-button">留下心声 <span>→</span></a>
+          </div>
+        </article>
+        <button class="slider-arrow prev" type="button" aria-label="上一张">‹</button>
+        <button class="slider-arrow next" type="button" aria-label="下一张">›</button>
+        <div class="slider-dots" role="tablist" aria-label="选择轮播图"></div>
+        <div class="slide-counter"><strong>01</strong><i></i><span>03</span></div>
+      </div>
+    </section>
+
+    <section class="prologue shell" aria-label="项目引言">
+      <span class="seal">薪火<br>相传</span>
+      <div>
+        <p class="overline">THE SPIRIT OF SCIENTISTS</p>
+        <h2>一方舞台，百年求索</h2>
+      </div>
+      <p>这里收藏的不只是剧本与影像，更是一代代青年对“科学何以照亮中国”的深情叩问。</p>
+    </section>
+
+    <section class="content-grid shell">
+      <article class="panel works-panel" id="works">
+        <header class="panel-head">
+          <div><span class="index">01</span><p class="overline">ARCHIVE</p><h2>剧目典藏</h2></div>
+          <a href="#works-list" class="text-link">全部剧目 <span>↗</span></a>
+        </header>
+        <div class="school-list" id="works-list">
+          <button class="school-item active" type="button" data-school="南京大学" data-play="《星河回响》" data-desc="以天文学家戴文赛的求索人生为原型，讲述中国天文学从筚路蓝缕到仰望深空。">
+            <span class="school-no">01</span><span class="school-copy"><strong>南京大学</strong><small>《星河回响》 · 天文报国</small></span><span class="circle-arrow">↗</span>
+          </button>
+          <button class="school-item" type="button" data-school="东南大学" data-play="《无问西东》" data-desc="青年师生用舞台讲述科技工作者跨越时代、薪火相传的家国选择。">
+            <span class="school-no">02</span><span class="school-copy"><strong>东南大学</strong><small>《无问西东》 · 科技强国</small></span><span class="circle-arrow">↗</span>
+          </button>
+          <button class="school-item" type="button" data-school="南京航空航天大学" data-play="《长空铸剑》" data-desc="聚焦航空报国群体，以一次型号攻关串联三代航空人的信念与青春。">
+            <span class="school-no">03</span><span class="school-copy"><strong>南京航空航天大学</strong><small>《长空铸剑》 · 航空报国</small></span><span class="circle-arrow">↗</span>
+          </button>
+          <button class="school-item" type="button" data-school="南京农业大学" data-play="《稻穗向阳》" data-desc="从田野到实验室，展现农业科学工作者把论文写在大地上的坚守。">
+            <span class="school-no">04</span><span class="school-copy"><strong>南京农业大学</strong><small>《稻穗向阳》 · 躬耕大地</small></span><span class="circle-arrow">↗</span>
+          </button>
+        </div>
+        <div class="work-preview" aria-live="polite">
+          <span>本期推荐</span><h3 id="previewTitle">南京大学 · 《星河回响》</h3><p id="previewDesc">以天文学家戴文赛的求索人生为原型，讲述中国天文学从筚路蓝缕到仰望深空。</p>
+        </div>
+      </article>
+
+      <article class="panel news-panel" id="news">
+        <header class="panel-head">
+          <div><span class="index">02</span><p class="overline">NEWS</p><h2>新闻动态</h2></div>
+          <span class="live-dot">持续更新</span>
+        </header>
+        <div class="featured-news">
+          <div class="feature-image"><span>校园戏剧季</span></div>
+          <div class="feature-copy"><time datetime="2026-05-04">2026.05.04</time><h3>江苏高校科学家精神校园戏剧展演季正式启幕</h3><p>让科学家故事走出史料，走近青年，走上舞台。</p><a href="#" data-demo-link>阅读全文 →</a></div>
+        </div>
+        <ul class="news-list">
+          <li><time><b>28</b><span>APR</span></time><a href="#" data-demo-link><strong>原创大师剧进校园，青年学子共话科学理想</strong><small>江苏教育 · 校园文化</small></a></li>
+          <li><time><b>16</b><span>APR</span></time><a href="#" data-demo-link><strong>从实验室到聚光灯：一部校园戏剧的诞生</strong><small>高校动态 · 创作手记</small></a></li>
+          <li><time><b>02</b><span>APR</span></time><a href="#" data-demo-link><strong>剧本征集启动：寻找你心中的科学星辰</strong><small>活动通知 · 作品征集</small></a></li>
+        </ul>
+        <p class="demo-note">※ 当前新闻为 Demo 示例内容，正式上线后可替换为真实链接。</p>
+      </article>
+
+      <aside class="panel message-panel" id="message">
+        <header class="panel-head">
+          <div><span class="index">03</span><p class="overline">MESSAGE</p><h2>薪火留言</h2></div>
+        </header>
+        <blockquote>
+          <span>“</span>舞台落幕，而求真的故事仍在每一个青年心中继续生长。<span>”</span>
+        </blockquote>
+        <form id="messageForm">
+          <label for="visitorName">您的称呼</label>
+          <input id="visitorName" name="name" maxlength="20" placeholder="如：一位南大学子" required />
+          <label for="visitorMessage">想说的话</label>
+          <textarea id="visitorMessage" name="message" maxlength="120" rows="4" placeholder="写下您对科学家精神或校园戏剧的感想……" required></textarea>
+          <div class="form-meta"><span id="charCount">0 / 120</span><span>Demo 留言仅保存在本机</span></div>
+          <button class="submit-button" type="submit">留下我的星火 <span>✦</span></button>
+        </form>
+        <div class="message-wall" id="messageWall" aria-live="polite">
+          <div class="message-card"><div><span class="avatar">青</span><strong>青年观众</strong><time>今天</time></div><p>愿每一次追问，都能离真理更近一步。</p></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="closing" id="about">
+      <div class="shell closing-inner"><p class="overline">CURTAIN CALL, SPIRIT ENDURES</p><h2>幕会落，星火不会熄灭</h2><p>致敬每一位仰望星空、脚踏实地的科学工作者<br>也致敬每一位用青春讲述他们的校园创作者</p><a href="#top" class="back-top">回到序章 ↑</a></div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><div class="footer-brand"><span class="brand-mark">炬</span><div><strong>星炬长明</strong><small>江苏高校科学家精神戏剧剧场</small></div></div><p>本页面为概念 Demo，剧目与新闻内容仅供版式展示。<br>© 2026 星炬长明项目组</p></div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
